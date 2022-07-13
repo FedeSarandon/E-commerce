@@ -1,0 +1,20 @@
+.imgsRandom{
+    height: 22vh;
+    width: 29vh;
+}
+.verMas2{
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .verMas1{
+        display: none;
+    }
+    .verMas2{
+        bottom: 0vh;
+        display: block;
+    }
+    .link{
+        margin-top: 12vh;
+    }
+    
+}

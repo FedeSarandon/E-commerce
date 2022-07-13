@@ -1,0 +1,78 @@
+.items{
+    text-decoration:none;
+    color:black;
+}
+.vinculo{
+    color: white;
+    text-decoration: none;
+}
+
+#busqueda{
+    margin-left: 10vh;
+}
+#nav{
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    transition: 1s all ease;
+}
+#ulNav{
+    display: contents;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.cartNav{
+    margin-left: 7vh;
+}
+.rucaNav{
+    margin-right: 2vh;
+    margin-left: 5vh;
+}
+.inicioNav{
+    margin-right: -9vh;
+}
+.vinculo{
+    color: white;
+    text-decoration: none;
+}
+.nombreH1{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar-toggle{
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color:blue;
+    border: 1px solid ;
+    border-radius: .25rem;
+}
+.hamburger{
+    background-color: transparent;
+    display: none;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width: 767px){
+    .nombreH1{
+        margin-left: 0vh;
+        margin-right: 0vh;;
+    }
+    #ulNav{
+        display: none;
+        flex-direction: column;
+    }
+    #ulNav.show{
+        display: flex;
+    }
+    .cartNav{
+        margin-left: 55%;
+    }
+    .hamburger{
+        display: block;
+    }
+}
